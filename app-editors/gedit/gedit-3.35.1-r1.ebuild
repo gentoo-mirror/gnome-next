@@ -39,6 +39,7 @@ DEPEND="
 			dev-libs/libpeas[python,${PYTHON_SINGLE_USEDEP}]
 		')
 	)
+	gui-libs/tepl
 "
 RDEPEND="${DEPEND}
 	x11-themes/adwaita-icon-theme

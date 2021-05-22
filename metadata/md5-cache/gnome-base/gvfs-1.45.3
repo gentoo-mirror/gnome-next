@@ -1,4 +1,4 @@
-BDEPEND=>=dev-util/meson-0.54.0 >=dev-util/ninja-1.8.2 dev-util/meson-format-array app-arch/xz-utils virtual/pkgconfig
+BDEPEND=>=dev-util/meson-0.56.0 >=dev-util/ninja-1.8.2 dev-util/meson-format-array app-arch/xz-utils virtual/pkgconfig
 DEFINED_PHASES=compile configure install prepare test
 DEPEND=app-crypt/gcr:= >=dev-libs/glib-2.53.4:2 sys-apps/dbus dev-libs/libxml2:2 afp? ( >=dev-libs/libgcrypt-1.2.2:0= ) archive? ( app-arch/libarchive:= ) bluray? ( media-libs/libbluray ) fuse? ( >=sys-fs/fuse-3.6.2:3= ) gnome-keyring? ( app-crypt/libsecret ) gnome-online-accounts? ( >=net-libs/gnome-online-accounts-3.7.1:= ) google? ( >=dev-libs/libgdata-0.17.3:=[crypt,gnome-online-accounts] >=net-libs/gnome-online-accounts-3.17.1:= ) gphoto2? ( >=media-libs/libgphoto2-2.5.0:= ) http? ( >=net-libs/libsoup-2.42:2.4 ) ios? ( >=app-pda/libimobiledevice-1.2:= >=app-pda/libplist-1:= ) mtp? ( >=media-libs/libmtp-1.1.12 ) nfs? ( >=net-fs/libnfs-1.9.7 ) policykit? ( >=sys-auth/polkit-0.114 sys-libs/libcap ) samba? ( >=net-fs/samba-4.5.10[client] ) sftp? ( net-misc/openssh ) systemd? ( >=sys-apps/systemd-206:0= ) udev? ( cdda? ( dev-libs/libcdio-paranoia ) >=dev-libs/libgudev-234 ) udisks? ( >=sys-fs/udisks-1.97:2 ) zeroconf? ( >=net-dns/avahi-0.6 ) app-text/docbook-xsl-stylesheets dev-libs/libxslt >=sys-devel/gettext-0.19.4 virtual/pkgconfig dev-util/gtk-doc-am test? ( >=dev-python/twisted-core-12.3.0 net-analyzer/netcat )
 DESCRIPTION=Virtual filesystem implementation for gio
@@ -13,5 +13,5 @@ REQUIRED_USE=cdda? ( udev ) google? ( gnome-online-accounts ) mtp? ( udev ) udis
 RESTRICT=test
 SLOT=0
 SRC_URI=mirror://gnome/sources/gvfs/1.45/gvfs-1.45.3.tar.xz
-_eclasses_=multiprocessing	cac3169468f893670dac3e7cb940e045	ninja-utils	132cbb376048d079b5a012f5467c4e7f	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	python-utils-r1	d273d56dc725880edbeb1f6389faf5f1	meson	00d6fba6e500964c50ba74d1d1fc2e6c	bash-completion-r1	8e7c071081c68c2c398b77fe3a1d6908	gnome.org	df5c6c53843e1be0aad724138e78bbc3	systemd	fdf0d765c3f11f91fe54f8def9a8c0e6
+_eclasses_=multiprocessing	cac3169468f893670dac3e7cb940e045	ninja-utils	132cbb376048d079b5a012f5467c4e7f	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	python-utils-r1	d273d56dc725880edbeb1f6389faf5f1	meson	28cbb704f3b4e0481c4a5f22be635115	bash-completion-r1	8e7c071081c68c2c398b77fe3a1d6908	gnome.org	df5c6c53843e1be0aad724138e78bbc3	systemd	fdf0d765c3f11f91fe54f8def9a8c0e6
 _md5_=0bae6bf996fad807a81f904acf08f24c

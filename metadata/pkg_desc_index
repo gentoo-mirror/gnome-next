@@ -1,5 +1,4 @@
 app-accessibility/at-spi2-atk 2.34.1: Gtk module for bridging AT-SPI to Atk
-app-accessibility/caribou 0.4.21-r1: Input assistive technology intended for switch and pointer users
 app-arch/file-roller 3.36.2: Archive manager for GNOME
 app-arch/gnome-autoar 0.2.4: Automatic archives creating and extracting library
 app-editors/gedit 3.36.2: A text editor for the GNOME desktop
@@ -18,28 +17,23 @@ dev-libs/libgdata 0.17.12: GLib-based library for accessing online service APIs 
 dev-libs/libgee 0.20.3: GObject-based interfaces and classes for commonly used data structures
 dev-libs/libgusb 0.2.11-r1: GObject wrapper for libusb
 dev-libs/libgweather 3.36.0: Location and timezone database and weather-lookup library
-dev-libs/libical 3.0.7-r1: An implementation of basic iCAL protocols
 dev-libs/libpeas 1.26.0: A GObject plugins library
 dev-libs/libsigc++ 2.99.11: Typesafe callback system for standard C++
 dev-libs/template-glib 3.32.0: JSON RPC GLIB
 dev-libs/wayland-protocols 1.19: Wayland protocol files
 dev-python/pygobject 3.36.1: Python bindings for GObject Introspection
-dev-util/devhelp 3.36.2: An API documentation browser for GNOME
 dev-util/gdbus-codegen 2.65.0: GDBus code and documentation generator
 dev-util/glib-utils 2.65.0: Build utilities for GLib using projects
 dev-util/gtk-doc-am 1.30: Automake files from gtk-doc
 dev-util/sysprof 3.37.2: System-wide Linux Profiler
 dev-util/sysprof-capture 3.36.0: Static library for sysprof capture data generation
-dev-vcs/gitg 3.32.1: git repository viewer for GNOME
 gnome-base/dconf 0.36.0: Simple low-level configuration system
 gnome-base/gnome 6.6.6: Meta package for GNOME 3, merge this package to install
 gnome-base/gnome-keyring 3.36.0: Password and keyring managing daemon
 gnome-base/gnome-menus 3.36.0: Library for the Desktop Menu fd.o specification
 gnome-base/gnome-session 3.36.0: Gnome session manager
-gnome-base/gnome-settings-daemon 3.36.1: Gnome Settings Daemon
 gnome-base/gsettings-desktop-schemas 3.37.2: Collection of GSettings schemas for GNOME desktop
 gnome-base/gvfs 1.45.3: Virtual filesystem implementation for gio
-gnome-base/libgnome-keyring 3.12.0-r3: Compatibility library for accessing secrets
 gnome-base/libgtop 2.40.0: A library that provides top functionality to applications
 gnome-base/librsvg 2.48.8: Scalable Vector Graphics (SVG) rendering library
 gnome-base/nautilus 3.37.3: Default file manager for the GNOME desktop
@@ -54,7 +48,6 @@ gnome-extra/gnome-power-manager 3.32.0: GNOME power management service
 gnome-extra/gnome-software 3.36.0: Gnome install & update software
 gnome-extra/gnome-system-monitor 3.36.0: The Gnome System Monitor
 gnome-extra/gnome-todo 3.28.1: Personal task manager
-gnome-extra/gnome-tweaks 3.34.0-r1: Customize advanced GNOME 3 options
 gnome-extra/nautilus-tracker-tags 1.13.0: Nautilus extension to tag files for Tracker
 gnome-extra/nm-applet 1.18.0: GNOME applet for NetworkManager
 gnome-extra/sushi 3.34.0-r1: A quick previewer for Nautilus, the GNOME file manager
@@ -70,7 +63,6 @@ media-gfx/gthumb 3.11.1: Image viewer and browser for Gnome
 media-libs/clutter-gst 3.0.27: GStreamer integration library for Clutter
 media-libs/clutter-gtk 1.8.4: Library for embedding a Clutter canvas (stage) in GTK+
 media-libs/gexiv2 0.12.1: GObject-based wrapper around the Exiv2 library
-media-libs/graphene 1.9.4: A thin layer of types for graphic libraries
 media-libs/libmediaart 1.9.4: Manages, extracts and handles media art caches
 media-plugins/grilo-plugins 0.3.11: A collection of plugins for the Grilo framework
 media-sound/gnome-music 3.36.1: Music management for Gnome

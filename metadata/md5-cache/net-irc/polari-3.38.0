@@ -5,11 +5,11 @@ DESCRIPTION=An IRC client for Gnome
 EAPI=7
 HOMEPAGE=https://wiki.gnome.org/Apps/Polari
 INHERIT=gnome.org meson xdg python-single-r1
-IUSE=python_single_target_python3_7 python_single_target_python3_8
+IUSE=+python_single_target_python3_8
 KEYWORDS=~amd64 ~arm ~x86
 LICENSE=GPL-2+
 RDEPEND=>=x11-libs/gtk+-3.21.6:3[introspection] net-libs/telepathy-glib[introspection] >=dev-libs/glib-2.43.4:2 >=dev-libs/gobject-introspection-1.50:= >=dev-libs/gjs-1.45.3 x11-libs/gdk-pixbuf:2[introspection] >=app-text/gspell-1.4.0[introspection] x11-libs/pango[introspection] app-crypt/libsecret[introspection] net-libs/libsoup:2.4[introspection] net-im/telepathy-logger[introspection] >=gnome-base/gsettings-desktop-schemas-3.37.2 >=net-irc/telepathy-idle-0.2
 SLOT=0
 SRC_URI=mirror://gnome/sources/polari/3.38/polari-3.38.0.tar.xz
-_eclasses_=gnome.org	df5c6c53843e1be0aad724138e78bbc3	multiprocessing	cac3169468f893670dac3e7cb940e045	ninja-utils	132cbb376048d079b5a012f5467c4e7f	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	python-utils-r1	d273d56dc725880edbeb1f6389faf5f1	meson	28cbb704f3b4e0481c4a5f22be635115	xdg-utils	ff2ff954e6b17929574eee4efc5152ba	xdg	c7ba313ea1eaf266f95cc6235f7d6a07	python-single-r1	d25ac9d5d91fe9d44fda6ec192aca11a
+_eclasses_=gnome.org	df5c6c53843e1be0aad724138e78bbc3	multiprocessing	cac3169468f893670dac3e7cb940e045	ninja-utils	132cbb376048d079b5a012f5467c4e7f	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	python-utils-r1	6e84b7d3d8d0bb1ee12774f4a66909e2	meson	28cbb704f3b4e0481c4a5f22be635115	xdg-utils	ff2ff954e6b17929574eee4efc5152ba	xdg	c7ba313ea1eaf266f95cc6235f7d6a07	python-single-r1	d25ac9d5d91fe9d44fda6ec192aca11a
 _md5_=0c554cfe02c4f369b508959bb3d2f675
